@@ -1,0 +1,11 @@
+Logfile initialized
+[INFO] logfile = /Users/Darren/Work/newsReader/build.log
+[DEBUG] /Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/builder.py simulator newsReader /Users/Darren/Work/android-sdk-mac_x86 /Users/Darren/Work/newsReader com.ccs.news 15 HVGA 
+[INFO] Building newsReader for Android ... one moment
+[INFO] Titanium SDK version: 2.1.4 (11/09/12 12:46 51f2c64)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.018379 seconds on emulator to get ready
+[DEBUG] com.ccs.news installed? False
+[INFO] Android Emulator has exited
