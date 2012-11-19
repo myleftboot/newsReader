@@ -1,4 +1,3 @@
-
 var win = Titanium.UI.createWindow({  
     title:'RssReader',
     backgroundColor:'#fff'
@@ -6,11 +5,11 @@ var win = Titanium.UI.createWindow({
 
 
 var rss = require('rssReader'),
-MasterView = require('MasterView');
+RssView = require('rssView');
 
-var masterView = new MasterView();
+var rssView = new RssView();
 
-win.add(masterView);
+win.add(rssView);
 win.open();
 
 
