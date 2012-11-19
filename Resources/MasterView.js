@@ -2,7 +2,7 @@ var createRssRow = function(item) {
 	var tablerow = Ti.UI.createTableViewRow({
 		height: 70,
 		link: item.link,
-		className: 'itemRow'
+		className: 'RSSRow'
 	});
 	var imageview = Ti.UI.createImageView({
 		image: item.image,
@@ -27,8 +27,8 @@ var createRssRow = function(item) {
 	return tablerow;
 };
 
-//Master View Component Constructor
-function MasterView() {
+//RSS Viewer 
+function RSSView() {
 	var self = Ti.UI.createView({
 		backgroundColor:'#fff'
 	});
@@ -49,4 +49,4 @@ function MasterView() {
 
 	return self;
 }
-module.exports = MasterView;
+module.exports = RSSView;
