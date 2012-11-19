@@ -13,5 +13,5 @@ win.add(rssView);
 win.open();
 
 
-rss.fetchRSSFeed({url: 'http://feeds.bbci.co.uk/news/business/rss.xml?edition=uk', success: masterView.refreshRSSTable});
+rss.fetchRSSFeed({url: 'http://feeds.bbci.co.uk/news/business/rss.xml?edition=uk', success: rssView.refreshRSSTable});
 
